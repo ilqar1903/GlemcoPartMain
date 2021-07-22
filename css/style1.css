@@ -1,0 +1,1660 @@
+@font-face {
+	font-family: 'Helvetica Neue LT Pro';
+	src: url('../font3/HelveticaNeueLTPro-Cn.eot');
+	src: url('../font3/HelveticaNeueLTPro-Cnd41d.eot?#iefix') format('embedded-opentype'),
+		url('../font3/HelveticaNeueLTPro-Cn.woff') format('woff'),
+		url('../font3/HelveticaNeueLTPro-Cn.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff !important;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    clear: both;
+}
+
+input[type="text"],
+textarea,
+input[type="email"],
+input[type="tel"] {
+    resize: none;
+    transition: all 0.3s ease-in-out 0s;
+    background-color: rgba(84, 164, 191, 0.8);
+    border: 1px solid #a5c3de;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    box-shadow: 0 0 5px #15478c;
+}
+
+h1 {
+    color: #000000;
+    font-size: 30px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+h2 {
+    color: #ffffff;
+    float: left;
+   font-family: 'Oswald', sans-serif;
+    font-size:31px; padding-bottom:12px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+h3 {
+    color: #37a54b;
+    float: left;
+    font-family: "Helvetica Neue LT Pro";
+    font-size: 20px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+ul,
+ol {
+    list-style: outside none none;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+.container {
+    clear: both;
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.header {
+    float: left;
+    height: 120px;
+    width: 100%;
+}
+
+.top-header {
+    float: left;
+    height: 3px; background-color:#37a54b;
+    width: 100%;
+}
+
+
+p.align-center{width:100%; text-align:center!important;}
+
+.social-links {
+    float: right;
+    margin-top: 3px;
+}
+
+.social-links a {
+    float: left;
+}
+
+.social-links a img {
+    opacity: 0.8;
+}
+
+.social-links a img:hover {
+    opacity: 1;
+}
+
+.wrap-logo-menu {
+    float: left;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    margin-top:5px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    height: 82px;
+    width: 276px;
+}
+
+.rgtr-login-btn {
+    float: right;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #37a54b;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #37a54b 0%, #24c900 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.rgtr-login-btn .btn {
+    float: left;
+    margin-left: 10px;
+}
+.single-right-container > h2 {
+    margin: 0px 0px 0px 0px;
+}
+.banner {
+  
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.section2 {
+    background-color: #f1f1f1;
+    float: left;
+    padding-bottom: 68px; border-top:2px solid #37a54b;
+    text-align: center;
+    width: 100%; margin-top:45px;
+}
+
+
+.region.region-locate1 {
+    padding:16px 0px 0px 0px;
+}
+
+
+.services-container {
+    display: inline-block;
+    margin: -34px 12px 0;
+    position: relative;
+    vertical-align: top;
+    width: 198px;
+    z-index: 99;
+}
+
+.rotate {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.services-container:hover .rotate {
+    transform: rotate(360deg);
+}
+
+.services-container-first {
+    margin: -34px 12px 0 0;
+}
+
+.services-container-last {
+    margin: -34px 0 0 12px;
+}
+
+.content.black > p {
+    color: #2f2f2f;
+    font-size: 12px;
+    line-height: 20px;
+    min-height: 66px;
+}
+
+.btn-green {
+    border: 1px solid #7f7f7f;
+    color: #4b4b4b;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 11px;
+    padding: 4px 12px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn-green:hover {
+    background-color: #37a54b;
+    border: 1px solid #37a54b;
+    color: #ffffff;
+}
+
+#locate {
+    background-color: #704f92;
+    float: left;
+    height: 86px;
+    text-align: center;
+    width: 100%;
+}
+
+#aeroplane {
+    margin-top: -58px;
+    position: relative;
+    z-index: 99;
+}
+
+/*.wrap-vertical-names {
+    float: left;
+    width: 100%; margin:-25px 0px 0px 53px; text-align:center;
+}*/
+.wrap-vertical-names {
+  float: none;
+  margin: -25px auto 0;
+  overflow: hidden;
+  text-align: center;
+  width: 54%;
+}
+
+.half-grid {
+    float: left;
+    width: 50%;
+}
+
+.scroll-text {
+    overflow: hidden;
+    text-align: right;
+    color: #e4e553;
+    margin-right: 1%;
+}
+
+.vertical-names-static {
+    color: #fff;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.vertical-names {
+    height: 44px;
+   font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.locate-2 {
+    background-color: #503373;
+    float: left;
+    height: 107px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-yellow {
+    background-color: #e4e553;
+    color: #503373;
+    display: inline-block;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 22px;
+    margin-top: 35px;
+    padding: 7px 20px;
+}
+
+.btn-yellow:hover {
+    background: linear-gradient(to bottom, #e4e553 0%, #ffff7a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.wrap-brief {
+	background-image:url(../images/brief-bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    min-height: 772px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.column-left {
+    border-right: 1px solid #2d2e30;
+    float: left;
+    padding: 30px 10px 30px 0;
+    width: 540px;
+}
+
+.seperator {
+    border-bottom: 1px solid #2d2e30;
+    float: left;
+    width: 100%;
+}
+
+.column-right {
+    float: right;
+    padding: 30px 0;
+    width: 540px;
+}
+
+.single-left-container {
+    float: left;
+    height: auto;
+    width: 71px;
+}
+
+.single-right-container {
+    float: right;
+    width: 456px;
+}
+
+.content.gray > p {
+    color: #bdbdbd;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content.gray {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.list-style > li {
+    background-image: url(../images/list-bg.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #bdbdbd;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.list-column1 {
+    width: 231px;
+}
+
+.list-style {
+    float: left;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.section5 {
+    width: 100%;
+    float: left;
+    height: 70px;
+    background-color: #e12937;
+    text-align: center;
+}
+
+.about-us-shape {
+    margin-top: 23px;
+    position: relative;
+    z-index: 998; color:#fff;
+}
+
+.about-heading {
+    color: #000;
+   font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin: 40px 0 10px 0;
+    position: relative;
+    z-index: 998;
+}
+
+.about-us {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(../images/about-us-bg.png);
+    min-height: 310px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    padding-bottom: 50px; color:#fff;
+}
+
+.aboutus-txt > p {
+    float: left;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 18px;
+    margin:0px 0 0; line-height:30px; text-align:left;
+    width: 100%; color:#000;
+}
+
+.content.aboutus-txt span {
+    color: #000;
+}
+
+.rfq-help {
+    background-color: #000;
+    width: 100%;
+    min-height: 366px;
+    float: left;
+    background-image: url(../images/rfq-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+
+.rfq-logo {
+    margin-top: -46px;
+    position: relative;
+}
+
+.rfq-heading {
+    color: #fff;
+   font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin: -15px 0 10px;
+    position: relative;
+}
+
+.rfq-bullets {
+    float: right;
+    text-align: left;
+    width: 455px;
+}
+
+.rfq-bullets li {
+    color: #8080a3;
+    float: left;
+    font-family: "Helvetica Neue LT Pro";
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-image: url(../images/rfq-li.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 30px;
+    line-height: 23px;
+}
+
+.reg-member {
+    float: left;
+    width: 100%;
+    height: 140px;
+    background-color: #2a2741;
+    text-align: center;
+}
+
+.reg-heading {
+    color: #ffffff;
+    float: left;
+   font-family: 'Oswald', sans-serif;
+    font-size:18px;
+    margin: 20px 0 10px;
+    width: 100%;
+}
+
+.content.contactus-txt {
+    clear: both;
+    float: left;
+    margin-bottom:16px;
+    width: 100%;
+}
+
+.content.reg-txt > p {
+    color: #8080a3;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 16px;
+}
+
+.address > p,
+.wrap-contact-form > p {
+    color: #ffffff;
+    font-family: Helvetica Neue LT Pro;
+    font-size:22px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #4a87bd;
+    float: left;
+    width: 100%;
+    padding: 10px 0 95px 0;
+    text-align: center;
+}
+
+.contactus-logo {
+    margin-top: -55px;
+    position: relative;
+}
+
+.content.contactus-txt > p {
+    color: #ffffff;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.address {
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 19px;
+}
+
+.address ul li {
+    float: left;
+    clear: both;
+    margin: 10px 0px;
+}
+
+.address li {
+    float: left;
+    clear: both;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.address > ul {
+    opacity: 0.7;
+}
+
+.address li a {
+    color: #ffffff;
+}
+
+.c-address {
+    background-image: url(../images/c-address.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.c-num {
+    background-image: url(../images/c-num.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.c-call {
+    background-image: url(../images/c-call.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.c-email {
+    background-image: url(../images/c-email.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.wrap-contact-form {
+    float: right;
+    width: 542px;
+    text-align: left;
+}
+
+.wrap-contact-form input[type="text"],
+.wrap-contact-form input[type="email"],
+.wrap-contact-form input[type="tel"] {
+    width: 250px;
+    padding-left: 8px;
+    height: 38px;
+    margin-bottom: 10px;
+    float: left;
+    color: #fff; font-size:16px;
+}
+
+textarea {
+    width: 531px;
+    height: 80px;
+    padding-left: 8px;
+    color: #fff; font-size:16px;
+    padding-top: 8px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.submit-btn {
+    background-color: #37a54b;
+    border: 0 none;
+    color: #ffffff;
+    float: left;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 17px;
+    height: 38px;
+    margin-top: 9px;
+    width: 109px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    color: #15478c;
+}
+
+.map {
+    float: left;
+    width: 100%;
+}
+
+.place-card.place-card-large {
+    display: none !important;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    float: left;
+    font-family: arial;
+    font-size: 14px;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.copyright {
+    float: left;
+}
+
+.footer-nav {
+    float: right;
+}
+
+.footer-nav ul li {
+    float: left;
+    margin-left: 25px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    font-family: arial;
+}
+
+.footer-nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.wrap-search {
+    background-image: url(../images/search-bg.png);
+    float: left;
+    height: 189px;
+    margin-top: -370px;
+    position: relative;
+    width: 358px;
+    z-index: 99;
+}
+
+.search-field {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    height: 28px;
+    width: 305px;
+    padding-left: 5px;
+    margin-top: 52px;
+    margin-left: 19px;
+    background-color: rgba(84, 164, 191, 0.8);
+}
+
+.select-box {
+    border: 1px solid #ffffff;
+    height: 28px;
+    color: #ffffff;
+    width: 314px;
+    margin-top: 12px;
+    margin-left: 19px;
+    background-color: rgba(84, 164, 191, 0.8);
+}
+
+.search-btn {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    float: left;
+     font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    margin-left: 19px;
+    margin-top: 10px;
+    padding: 4px 13px;
+    cursor: pointer;
+}
+
+.inner-template {
+    float: left;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+@media only screen and (min-width:980px) and (max-width:1100px) {
+    .container {
+        width: 98%;
+    }
+    .services-container {
+        margin: -65px 0 0;
+        width: 186px;
+    }
+    .services-container > h3 {
+        font-size: 18px;
+    }
+    .services-container-first {
+        margin: -65px 0 0;
+    }
+    .services-container-last {
+        margin: -65px 0 0;
+    }
+    .column-left {
+        border-right: 0px solid #2d2e30;
+        width: 430px;
+    }
+    .single-right-container {
+        float: right;
+        width: 340px;
+    }
+    .column-right {
+        float: right;
+        padding: 30px 0;
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .wrap-search {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:979px) {
+    .column-left,
+    .column-right {
+        border-right: 0 solid #2d2e30;
+        border-bottom: 1px solid #2d2e30;
+        float: left;
+        padding: 10px 0;
+        width: 100%;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        float: none;
+        margin: 5px auto !important;
+        width: 98%;
+    }
+    textarea {
+        margin: 5px auto !important;
+        width: 98% !important;
+    }
+    .copyright {
+        float: left;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .wrap-contact-form {
+        float: right;
+        text-align: left;
+        width: 100%;
+    }
+    .pull-right {
+        float: none !important;
+    }
+    .address > p,
+    .wrap-contact-form > p {
+        text-align: center;
+    }
+    .address {
+        clear: both;
+        color: #ffffff;
+        display: block;
+        float: none;
+        font-family: Helvetica Neue LT Pro;
+        font-size: 19px;
+        margin: 0 auto;
+        text-align: left;
+        width: 220px;
+    }
+    .submit-btn {
+        display: block;
+        float: none;
+        margin: 5px auto;
+    }
+    .footer-nav {
+        float: left;
+        width: 100%;
+    }
+    .footer-nav ul li {
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .reg-member {
+        background-color: #2a2741;
+        float: left;
+        min-height: 140px;
+        padding-bottom: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .single-right-container {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .list-style > li {
+        text-align: left;
+        width: 95%;
+        padding-left: 5%;
+    }
+    .rfq-bullets {
+        float: right;
+        text-align: left;
+        width: 100%;
+    }
+    .rfq-help {
+        background-image: none !important;
+    }
+    .single-left-container {
+        display: block;
+        float: none;
+        height: auto;
+        margin: 0 auto;
+        width: 71px;
+    }
+    .section2 {
+        padding-bottom: 0;
+    }
+    .services-container {
+        display: inline-block;
+        margin: -65px 12px 100px;
+        position: relative;
+        vertical-align: top;
+        width: 198px;
+        z-index: 99;
+    }
+    .services-container-first {
+        margin: -65px 12px 100px;
+    }
+    .services-container-last {
+        margin: -65px 12px 100px;
+    }
+    .header {
+        float: left;
+        height: 202px;
+        width: 100%;
+    }
+    .skdslider .slide-desc {
+        display: none !important;
+    }
+    #cssmenu {
+        clear: right;
+        float: right;
+        position: relative;
+        width: 100% !important;
+    }
+    #cssmenu > ul {
+        background: none repeat scroll 0 0 #2b2f3a;
+        display: block;
+        position: relative;
+        width: 100%;
+        z-index: 500;
+    }
+    #cssmenu ul li a {
+        color: #ffffff !important;
+    }
+    .container {
+        width: 97%;
+    }
+    .logo {
+        float: none;
+        margin: -6px auto 0;
+        position: relative;
+        width: 267px;
+        z-index: 1;
+    }
+    .rgtr-login-btn {
+        float: left;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .rgtr-login-btn .btn {
+        float: none !important;
+        margin: 10px auto 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 96%;
+    }
+    textarea {
+        margin: 0 auto !important;
+        width: 96% !important;
+    }
+    .btn-yellow {
+        font-size: 14px;
+    }
+}
+
+#cssmenu .last a {
+    border-right: 0;
+}
+
+.single-left-container {
+    width: 72px;
+    height: 72px;
+}
+
+.img1 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+.img2 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+.img3 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+.img4 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+.img5 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+.img6 {
+    background:url(../images/glemco.png) no-repeat;
+}
+
+#block-block-10 {
+    float: left;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+#sending {
+    color: #FF5959;
+    margin-top: 11px;
+    font-size: 13px;
+    font-weight: bold
+}
+
+#sent {
+    color: #0BCF49;
+    margin-top: 11px;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.f-nav {
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.menu-inner {
+    max-width: 1110px; margin:10px auto 0 auto;
+}
+
+.scrollmenu .logo img{ width:180px; height:53px; margin:-9px 0px 0px 0px;}
+
+
+.scrollmenu #cssmenu {margin: 1px 0 7px;}
+
+#sec5 {
+    float: left;
+    margin-top: -42px;
+}
+
+#sec4 {
+    float: left;
+    margin-top: -218px;
+}
+
+#rfid {
+    float: left;
+    margin-top: -108px;
+}
+
+
+#sec2 {
+    float: left;
+    margin-top: -108px;
+}
+
+
+
+#conta {
+    float: left;
+    margin-top: -140px;
+}
+
+.copyright img {
+    margin-top: -6px;
+}
+
+.skdslider .slide-desc > p {
+   font-family: 'Oswald', sans-serif;
+}
+
+
+/* product Search */
+h2.product-list{color:#000;}
+.product-list{float:left; width:100%;}
+.result-list{float:left; width:100%;border-bottom:1px solid #ecedee; padding: 10px 0px 10px 0px; background:#fff;}
+.result-list:hover{ background:#e5eef4;}
+.result-list-box{background-color:#37a54b; padding:10px 0px; height:25px; color:#fff!important;}
+.nsn{float:left; width:23%; padding:0px 0px 0px 10px;   font-family: Helvetica Neue LT Pro;}
+.pn{float:left; width:19%; padding:0px 0px 0px 10px; font-family: Helvetica Neue LT Pro;}
+.pro{float:left; width:23%; padding:0px 0px 0px 10px;  font-family: Helvetica Neue LT Pro;}
+.end{float:left; width:15%; padding:0px 0px 0px 10px;  font-family: Helvetica Neue LT Pro;}
+.pro-desc{float:right; width:15%; padding:0px 10px 0px 0px; text-align:right; font-family: Helvetica Neue LT Pro; text-align:center;}
+ul.pagination{width:500px; text-align:center; float:none; margin:0px auto;}
+ul.pagination.li a{font-size:12px;}
+.pag-number {
+    display: inline;
+    float: left; margin:50px 0px 150px 0px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.fancybox {
+    color: #37a54b;
+}
+
+.pag-current {
+  border: 1px solid #37a54b;
+  display: inline;
+  float: left;
+  margin: 50px 5px 5px 4px;
+  padding: 0px 7px;
+}
+.pag-next > a {
+  background: #37a54b none repeat scroll 0 0;
+  color: #fff;
+  padding: 2px 8px;
+}
+
+.pag-next {
+  display: inline;
+  float: left;
+  margin: 51px 0 0 9px;
+}
+
+.pag-prev {
+  display: inline;
+  float: left;
+  margin: 51px 8px 0 0;
+}
+.pag-prev > a {
+  background: #37a54b none repeat scroll 0 0;
+  color: #fff;
+  padding: 2px 8px;
+}
+.pag-number > a {
+    background: #37a54b repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 2px 8px;
+}
+
+
+.nsn-search{float:left; width:250px;}
+.nsn-search input{ background:#fff; padding:10px 0px; color:#000; width:239px; height:30px; padding:0px 0px 0px 5px;}
+
+.search-button input{background:#37a54b; color:#fff; padding:7px; border:none;}
+.glemcoparts-pop-up-top {
+  background: #002037 none repeat scroll 0 0;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.glemcoparts-pop-up {
+  border: 1px solid #002037;
+  float: left;
+  margin: 0;
+  padding: 0 0 20px;
+  width: 99.7%;
+}
+.glemcoparts-pop-up-top > p {
+  color: #fff;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 12px;
+}
+.glemcoparts-pop-up-center {
+  float: left;
+  margin: 20px 0 0;
+  padding: 0 25px;
+  width: 87%;
+}
+.glemcoparts-pop-up-text {
+  float: left;
+  margin: 0 0 20px;
+  padding: 0;
+  width: 100%;
+}
+.glemcoparts-pop-up-text-left {
+  color: #ed1c24;
+  float: left;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 22%;
+}
+.glemcoparts-pop-up-text-right {
+  color: #000;
+  float: left;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.glemcoparts-pop-up-form {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.glemcoparts-pop-up-form-field {
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 100%;
+}
+.glemcoparts-pop-up-form-field label {
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+.glemcoparts-pop-up-form-field .type-input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  height: 32px;
+  padding: 0 5px;
+  width: 96%;
+}
+.glemcoparts-pop-up-form-field .type-select {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0 5px;
+  width: 96%; color:#000;
+}
+
+.submit-btn:hover { border:1px solid #ccc;}
+
+.Product.Search {
+    margin: 11px 0 0 0px;
+}
+
+.product-wanted {
+    background: #fff none repeat scroll 0 0 !important;
+    border: medium none !important;
+    font-size: 18px;
+    margin: -5px 0 0;
+    width: 250px;
+}
+
+.product-number {
+    background: #fff none repeat scroll 0 0 !important;
+    border: medium none !important;
+    font-size: 18px;
+    margin: -5px 0 0;
+    width: 250px;
+}
+
+.cat_button {
+    background: #37a54b none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 10px;
+}
+.c-fax {
+    background-image: url("../images/fax.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+@media (min-width: 1023px) and (max-width: 1024px){
+.wrap-contact-form input[type="text"], .wrap-contact-form input[type="email"], .wrap-contact-form input[type="tel"] {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-right: 10px !important;
+  padding-left: 8px;
+  width: 240px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	.wrap-contact-form input[type="text"], .wrap-contact-form input[type="email"], .wrap-contact-form input[type="tel"] {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-right: 10px !important;
+  padding-left: 8px;
+  width: 250px;
+}
+.submit-btn {
+  background-color: #37a54b;
+  border: 0 none;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 17px;
+  height: 38px;
+  margin: 0 !important;
+  width: 109px;
+}
+ul.pagination {
+  float: none;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 270px;
+}
+	.container {
+  float: left;
+  padding: 0 10px;
+  width: 91% !important;
+}
+.list-style > li { width: 45%;}
+.nsn-search {
+  float: left;
+  width: 248px;
+}
+.nsn {
+	float: left;
+	font-family: Helvetica Neue LT Pro;
+	padding: 0 0 0 10px;
+	width: 21%;
+	font-size: 14px;
+}
+.pn {
+	float: left;
+	font-family: Helvetica Neue LT Pro;
+	padding: 0 0 0 10px;
+	width: 18%;
+	font-size: 14px;
+}
+.pro {
+	float: left;
+	font-family: Helvetica Neue LT Pro;
+	padding: 0 0 0 10px;
+	width: 23%;
+	font-size: 14px;
+}
+.end {width: 15%;font-size: 14px;}
+.pro-desc {font-size: 14px;}
+}
+@media (min-width: 600px) and (max-width: 767px){
+	.container {
+  width: 95% !important;
+}
+.wrap-contact-form input[type="text"], .wrap-contact-form input[type="email"], .wrap-contact-form input[type="tel"] {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-right: 10px !important;
+  padding-left: 8px;
+  width: 269px;
+}
+.list-style > li { width: 42%; margin-right: 15px;}
+.submit-btn { margin: 0 !important;}
+.nsn-search {
+  float: left;
+  width: 190px;
+}
+.pro-desc {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 14%;
+}
+.nsn-search input {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  height: 30px;
+  padding: 0 0 0 5px;
+  width: 175px;
+}
+.pro {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  padding: 0 0 0 10px;
+  width: 32%;
+}
+.search-button input {
+  background: #37a54b none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  margin: 5px 0 0;
+  padding: 7px;
+}
+}
+
+@media (min-width: 829px) and (max-width: 979px){
+.search-button input {
+  background: #37a54b none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  margin: 5px 0 0;
+  padding: 7px;
+}
+}
+@media (min-width: 501px) and (max-width: 599px){
+	.about-us-shape { margin-top: 0; width: 65px;}
+.glemcoparts-pop-up-text-right .product-number {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  float: left;
+  margin: 0 !important;
+  width: 100%;
+}
+.nsn-search {
+  float: left;
+  width: 242px;
+}
+.nsn-search input {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  height: 30px;
+  padding: 0 0 0 5px;
+  width: 229px;
+}
+.search-button input {
+  background: #37a54b none repeat scroll 0 0;
+  border: medium none;
+  clear: both;
+  color: #fff;
+  float: left;
+  margin: 5px 0 0;
+  padding: 7px;
+}
+.nsn {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  width: 23%;
+}
+.pn {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  width: 23%;
+}
+.pro {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  width: 30%;
+}
+.pro-desc {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 15%;
+}
+.glemcoparts-pop-up-text-right .product-wanted {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+.container {
+  width: 94% !important;
+}
+ul.pagination {
+  float: none;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 268px;
+}
+.submit-btn {
+  background-color: #37a54b;
+  border: 0 none;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 17px;
+  height: 38px;
+  margin: 0 !important;
+  width: 109px;
+}
+}
+@media (min-width: 556px) and (max-width: 599px){
+.wrap-contact-form input[type="text"], .wrap-contact-form input[type="email"], .wrap-contact-form input[type="tel"] {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-right: 10px !important;
+  padding-left: 8px;
+  width: 240px;
+}
+}
+
+
+
+
+@media (min-width: 501px) and (max-width: 767px){
+.end { display:none;}
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+	.section2 { margin-top: 0;}
+	.about-us-shape { margin-top: 0; width: 65px;}
+	.services-container{margin:8px 0px 0px 0px;}
+	#locate{margin-top:74px;}
+	.vertical-names {font-size: 24px;height: 36px;}
+	.seperator{border-bottom:none;}
+	h2 { font-size: 18px;}
+	.about-heading { font-size: 16px;}
+	.rfq-heading {font-size: 20px; margin: 0 0 10px;}
+	.submit-btn {
+  display: block;
+  float: left;
+  margin: 5px 0 0 !important;
+}
+.search-button {
+  float: left;
+  width: 100%;
+}
+.pro-desc {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 20%;
+}
+.pn {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  width: 35%;
+}
+.nsn {
+  float: left;
+  font-family: Helvetica Neue LT Pro;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  width: 34%;
+}
+.pro {
+  display: none;
+}
+.end {
+	display: none;
+}
+ul.pagination {
+  float: none;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.glemcoparts-pop-up-center {
+  float: left;
+  margin: 20px 0 0;
+  padding: 0 5px;
+  width: 96%;
+}
+.glemcoparts-pop-up-text-right .product-wanted {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+.glemcoparts-pop-up-text-right {
+  color: #000;
+  float: left;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 65%;
+}
+.glemcoparts-pop-up-text-left {
+  color: #ed1c24;
+  float: left;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+.fancybox-inner > div {
+  width: 99% !important;
+}
+.glemcoparts-pop-up {
+  border: 1px solid #002037;
+  float: left;
+  margin: 0;
+  padding: 0 0 20px;
+  width: 100.2%;
+}
+.glemcoparts-pop-up-text-right .product-number {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  float: left;
+  margin: 0 !important;
+  width: 100%;
+}
+.container {
+  width: 91% !important;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+#locate {
+  background-color: #704f92;
+  float: left;
+  height: 38px;
+  text-align: center;
+  width: 100%;
+}
+.wrap-vertical-names { display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
